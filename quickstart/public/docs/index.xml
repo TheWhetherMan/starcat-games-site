@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Docs on My New Hugo Site</title>
-    <link>http://localhost:1313/docs/</link>
-    <description>Recent content in Docs on My New Hugo Site</description>
+    <title>Docs on Starcat Games LTD</title>
+    <link>http://localhost:57862/docs/</link>
+    <description>Recent content in Docs on Starcat Games LTD</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 22 Jan 2025 19:28:56 -0600</lastBuildDate>
-    <atom:link href="http://localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57862/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First Post</title>
-      <link>http://localhost:1313/docs/first-post/</link>
+      <link>http://localhost:57862/docs/first-post/</link>
       <pubDate>Wed, 22 Jan 2025 19:28:56 -0600</pubDate>
-      <guid>http://localhost:1313/docs/first-post/</guid>
+      <guid>http://localhost:57862/docs/first-post/</guid>
+      <description>&lt;h2 id=&#34;first-post&#34;&gt;&#xA;  First Post&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#first-post&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;This is a test of Hugo&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>First Post 2</title>
+      <link>http://localhost:57862/docs/first-post-copy/</link>
+      <pubDate>Wed, 22 Jan 2025 19:28:56 -0600</pubDate>
+      <guid>http://localhost:57862/docs/first-post-copy/</guid>
       <description>&lt;h2 id=&#34;first-post&#34;&gt;&#xA;  First Post&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#first-post&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;This is a test of Hugo&lt;/p&gt;</description>
     </item>
   </channel>
