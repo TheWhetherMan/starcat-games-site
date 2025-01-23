@@ -2,4 +2,4 @@
 baseURL = 'https://starcatgames.ltd/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
-theme = 'hugo-book'
+theme = 'Book'
