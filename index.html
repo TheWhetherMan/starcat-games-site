@@ -1,64 +1,81 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <script  type="text/javascript" src="https://codesandbox.io/public/sse-hooks/sse-hooks.e15ace8ccace5398a721ffec81f121de.js"></script>
-    <script  type="text/javascript" src="https://codesandbox.io/static/js/banner.d9cb10a38.js"></script>
 
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="color-scheme" content="light dark" />
-    <title>Preview • Pico CSS</title>
-    <meta name="description" content="A pure HTML example, without dependencies." />
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="color-scheme" content="light dark" />
+	<title>Starcat Games</title>
 
-    <!-- Pico.css -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.0.6/css/pico.min.css"
-    />
-  </head>
+	<!-- Pico.css -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.0.6/css/pico.min.css" />
 
-  <body>
-    <!-- Header -->
-    <header class="container">
-      <hgroup>
-        <h1>Starcat Games</h1>
-        <p>Welcome!</p>
-      </hgroup>
-    </header>
+	<style>
+		header.container {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+	</style>
+</head>
 
-    <!-- Main -->
-    <main class="container">
-      <section id="preview">
-        <h2>Current Projects</h2>
-        <p>
-          Some of the current projects that I'm working on are shown below! 
-        </p>
-      </section>
+<body>
+	<!-- Header -->
+	<header class="container">
+		<hgroup>
+			<h1>Starcat Games</h1>
+			<p>Welcome!</p>
+		</hgroup>
+		<nav>
+			<ul>
+				<li>
+					<details class="dropdown">
+						<summary role="button" class="secondary">Theme</summary>
+						<ul>
+							<li><a href="#" data-theme-switcher="auto">Auto</a></li>
+							<li><a href="#" data-theme-switcher="light">Light</a></li>
+							<li><a href="#" data-theme-switcher="dark">Dark</a></li>
+						</ul>
+					</details>
+				</li>
+			</ul>
+		</nav>
+	</header>
 
-	  <!-- Article-->
-      <article id="article">
-        <h2>Journey Express</h2>
-        <p>
-          Nullam dui arcu, malesuada et sodales eu, efficitur vitae dolor. Sed ultricies dolor non
-          ante vulputate hendrerit. Vivamus sit amet suscipit sapien. Nulla iaculis eros a elit
-          pharetra egestas. Nunc placerat facilisis cursus. Sed vestibulum metus eget dolor pharetra
-          rutrum.
-        </p>
-        <footer>
-          <small>Duis nec elit placerat, suscipit nibh quis, finibus neque.</small>
-        </footer>
-      </article>
+	<!-- Main -->
+	<main class="container">
+		<section id="preview">
+			<h2>Current Projects</h2>
+			<p>
+				Some of the current projects that I'm working on are shown below!
+			</p>
+		</section>
 
-	  <p>
-		Thanks for stopping by!
-	  </p>
+		<!-- Article-->
+		<article id="article">
+			<h2>Journey Express</h2>
+			<p>
+				Nullam dui arcu, malesuada et sodales eu, efficitur vitae dolor. Sed ultricies dolor non
+				ante vulputate hendrerit. Vivamus sit amet suscipit sapien. Nulla iaculis eros a elit
+				pharetra egestas. Nunc placerat facilisis cursus. Sed vestibulum metus eget dolor pharetra
+				rutrum.
+			</p>
+			<footer>
+				<small>Duis nec elit placerat, suscipit nibh quis, finibus neque.</small>
+			</footer>
+		</article>
 
-    <!-- Minimal theme switcher -->
-    <script src="js/minimal-theme-switcher.js"></script>
+		<p>
+			Thanks for stopping by!
+		</p>
 
-    <!-- Modal -->
-    <script src="js/modal.js"></script>
-    <script crossorigin type="text/javascript" src="https://codesandbox.io/static/js/watermark-button.eeb14a97b.js"></script>
-  </body>
+		<!-- Minimal theme switcher -->
+		<script src="js/minimal-theme-switcher.js"></script>
+
+		<!-- Modal -->
+		<script src="js/modal.js"></script>
+		<script crossorigin type="text/javascript"
+			src="https://codesandbox.io/static/js/watermark-button.eeb14a97b.js"></script>
+</body>
+
 </html>
