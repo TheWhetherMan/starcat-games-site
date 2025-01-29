@@ -1,0 +1,13 @@
+header.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.center-button {
+	display: flex;
+	justify-content: center;
+}
+.center-a {
+	display: flex;
+	justify-content: center;
+}
