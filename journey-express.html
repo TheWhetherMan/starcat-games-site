@@ -1,46 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="color-scheme" content="light dark" />
-		<title>Starcat Games</title>
 
-		<link rel="icon" type="image/x-icon" href="/assets/Profile_Masked.png">
-		<!-- Pico.css -->
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.0.6/css/pico.min.css" />
-		<link rel="stylesheet" href="css/styles.css">
-	</head>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Starcat Games</title>
 
-	<body>
-		<!-- Header -->
-		<header class="container">
-			<h1># Journey Express</h1>
-		</header>
+	<link rel="icon" type="image/x-icon" href="/assets/Profile_Masked.png">
+	<link rel="stylesheet" href="assets/98.css/dist/98.css" />
+	<link rel="stylesheet" href="assets/98.css/dist/docs.css" />
+	<link rel="stylesheet" href="assets/98.css/dist/vs.css" />
+	<style>
+		/* Remove margin from body and add padding to avoid scrollbar overlap */
+		body {
+			margin: 0;
+			padding-right: 2.5rem;
+		}
 
-		<main class="container">
-			<article id="article">
-				<a href="https://store.steampowered.com/app/2127350/Journey_Express/">
-					<img src="assets/logo_v2-B.png" alt="Journey Express" width="100%" height="auto">
-				</a>
-				<br>
-				<br>
-				<p>
-					<b>Journey Express</b> is a hybrid 2D/3D adventure game currently available to wishlist on Steam! 
-					Inspired by games like <em>Oregon Trail II</em>, you'll need to manage resources, keep your party's health and morale
-					up, and explore the environment around you to find food and other supplies.
-				</p>
-				<footer>
-					<small>Current Project Status: Alpha</small>
-				</footer>
-			</article>
-			<br>
-			<a href="index.html" class="center-a">
-				<button style="width: 50%">Back Home</button>
-			</a>
-		</main>
+		/* Single column layout */
+		.container {
+			max-width: 741px;
+			display: grid;
+			width: 100%;
+			margin: 0 auto;
+			padding: 1rem;
+		}
 
-		<!-- Minimal theme switcher -->
-		<script src="js/minimal-theme-switcher.js"></script>
-	</body>
+		.window {
+			width: 100%;
+		}
+	</style>
+</head>
+
+<body>
+	<main class="container">
+		<h1 style="font-family: Pixelated MS Sans Serif; font-size: 44px; -webkit-font-smoothing: none;"># Journey Express</h1>
+		<h2 style="font-family: Pixelated MS Sans Serif; font-size: 22px; -webkit-font-smoothing: none;">## About The Game</h2>
+		<hr>
+		<br>
+
+		<div style="height: 1000px; display: grid; grid-template-columns: repeat(2, 350px); gap: 10px; grid-template-rows: 435px 460px;">
+			<div class="window">
+				<div class="title-bar">
+					<div class="title-bar-text">Discoveries</div>
+					<div class="title-bar-controls">
+					</div>
+				</div>
+				<div class="window-body">
+					<a href="https://store.steampowered.com/app/2127350/Journey_Express/">
+						<img src="assets/Crystalline-Star-Gems.gif" alt="Journey Express" width="100%" height="auto">
+					</a>
+					<br>
+					<p>
+						<fieldset>
+							Find and catalog unique discoveries around the world, and use them to fund future journeys!
+						</fieldset>
+					</p>
+				</div>
+			</div>
+			<div class="window">
+				<div class="title-bar">
+					<div class="title-bar-text">Exploration</div>
+					<div class="title-bar-controls">
+					</div>
+				</div>
+				<div class="window-body">
+					<a href="https://store.steampowered.com/app/2127350/Journey_Express/">
+						<img src="assets/forest_poi.png" alt="Journey Express" width="100%" height="auto">
+					</a>
+					<br>
+					<p>
+						<fieldset>
+							Explore the lands around you at any time while traveling to gather supplies, fish and hunt for food, or to find hidden points of interest!
+						</fieldset>
+					</p>
+				</div>
+			</div>
+			<div class="window">
+				<div class="title-bar">
+					<div class="title-bar-text">Traveling</div>
+					<div class="title-bar-controls">
+					</div>
+				</div>
+				<div class="window-body">
+					<a href="https://store.steampowered.com/app/2127350/Journey_Express/">
+						<img src="assets/forest_travel.png" alt="Journey Express" width="100%" height="auto">
+					</a>
+					<br>
+					<p>
+						<fieldset>
+							Travel through grasslands, forests, deserts, mountains, and tundras while braving the ever-changing weather!
+						</fieldset>
+					</p>
+				</div>
+			</div>
+			<div class="window">
+				<div class="title-bar">
+					<div class="title-bar-text">Character Customization</div>
+					<div class="title-bar-controls">
+					</div>
+				</div>
+				<div class="window-body">
+					<a href="https://store.steampowered.com/app/2127350/Journey_Express/">
+						<img src="assets/portrait.png" alt="Journey Express" width="100%" height="auto">
+					</a>
+					<br>
+					<p>
+						<fieldset>
+							Customize your travel guide with different portraits, backgrounds, and traits to make each journey unique!
+							If your character doesn't manage to survive the journey, your family successor will pick up where the last left off!
+						</fieldset>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<a href="index.html">
+			<button style="width: 200px">Back Home</button>
+		</a>
+	</main>
+</body>
 </html>
