@@ -11,13 +11,12 @@
 	<link rel="stylesheet" href="assets/98.css/dist/docs.css" />
 	<link rel="stylesheet" href="assets/98.css/dist/vs.css" />
 	<style>
-		/* Remove margin from body and add padding to avoid scrollbar overlap */
 		body {
 			margin: 0;
 			padding-right: 2.5rem;
+			padding-bottom: 2.5rem; /* Add padding to the bottom to avoid content cutoff */
 		}
-
-		/* Single column layout */
+		
 		.container {
 			max-width: 741px;
 			display: grid;
@@ -34,17 +33,21 @@
 
 <body>
 	<main class="container">
-		<h1 style="font-family: Pixelated MS Sans Serif; font-size: 44px; -webkit-font-smoothing: none;"># Journey Express</h1>
+		<h1 style="font-family: Pixelated MS Sans Serif; font-size: 33px; -webkit-font-smoothing: none;"># Journey Express</h1>
 		<h2 style="font-family: Pixelated MS Sans Serif; font-size: 22px; -webkit-font-smoothing: none;">## About The Game</h2>
 		<hr>
 		<br>
 
-		<div style="height: 1000px; display: grid; grid-template-columns: repeat(2, 350px); gap: 10px; grid-template-rows: 435px 460px;">
+		<a href="index.html">
+			<button style="width: 200px">Back Home</button>
+		</a>
+		<br>
+
+		<div style="display: grid; grid-template-columns: repeat(1, 395px); gap: 10px;">
 			<div class="window">
 				<div class="title-bar">
 					<div class="title-bar-text">Discoveries</div>
-					<div class="title-bar-controls">
-					</div>
+					<div class="title-bar-controls"></div>
 				</div>
 				<div class="window-body">
 					<a href="https://store.steampowered.com/app/2127350/Journey_Express/">
@@ -61,8 +64,7 @@
 			<div class="window">
 				<div class="title-bar">
 					<div class="title-bar-text">Exploration</div>
-					<div class="title-bar-controls">
-					</div>
+					<div class="title-bar-controls"></div>
 				</div>
 				<div class="window-body">
 					<a href="https://store.steampowered.com/app/2127350/Journey_Express/">
@@ -79,8 +81,7 @@
 			<div class="window">
 				<div class="title-bar">
 					<div class="title-bar-text">Traveling</div>
-					<div class="title-bar-controls">
-					</div>
+					<div class="title-bar-controls"></div>
 				</div>
 				<div class="window-body">
 					<a href="https://store.steampowered.com/app/2127350/Journey_Express/">
@@ -97,8 +98,7 @@
 			<div class="window">
 				<div class="title-bar">
 					<div class="title-bar-text">Character Customization</div>
-					<div class="title-bar-controls">
-					</div>
+					<div class="title-bar-controls"></div>
 				</div>
 				<div class="window-body">
 					<a href="https://store.steampowered.com/app/2127350/Journey_Express/">
@@ -113,11 +113,11 @@
 					</p>
 				</div>
 			</div>
-		</div>
 
-		<a href="index.html">
-			<button style="width: 200px">Back Home</button>
-		</a>
+			<a href="#">
+				<button style="width: 200px">Scroll To Top</button>
+			</a>
+		</div>
 	</main>
 </body>
 </html>
